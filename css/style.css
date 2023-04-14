@@ -1,0 +1,4 @@
+body{
+    transform: rotate(900000deg);
+    transition-duration: 5s;
+}
