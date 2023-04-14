@@ -1,8 +1,32 @@
 const jsContainer = document.querySelector(".js-container")
 
+const goals = [
+    {
+        learninGoal: "Gradient borders",
+        source: "csstricks.nl",
+        finished: false
+    },
+    {
+        learninGoal: "Gradient ",
+        source: "csstricks.nl",
+        finished: false
+    },
+];
+
+function addGoal(){
+    goals.push({});
+}
+
+for (let i = 0; i < goals.length; i++) {
+    const goal = goals[i];
+    console.log(goal.learninGoal);
+}
+
+
 let learningGoals = ["Gradient borders", "Minor CSS Animations", ""];
 let Sources = ["https://css-tricks.com/gradient-borders-in-css/", "https://animate.style/", ""];
 let Finished = [false, false, false, false, false, false, false];
+
 
 for (let i = 0; i < learningGoals.length; i++) {
     const learningGoalsArray = learningGoals[i];
