@@ -1,4 +1,9 @@
-const jsContainer = document.querySelector(".js-container")
+const jsContainer = document.querySelector(".js-container");
+const numberContainer = document.querySelector('.number-container');
+const goalContainer = document.querySelector('.goal-container');
+const sourceContainer = document.querySelector('.source-container');
+const finishedContainer = document.querySelector('.finished-container');
+const swmgImage = document.querySelector('.swmg-img');
 
 const goals = [
     {
@@ -22,22 +27,21 @@ for (let i = 0; i < goals.length; i++) {
     console.log(goal.learninGoal);
 }
 
-
-let learningGoals = ["Gradient borders", "Minor CSS Animations", ""];
-let Sources = ["https://css-tricks.com/gradient-borders-in-css/", "https://animate.style/", ""];
-let Finished = [false, false, false, false, false, false, false];
-
+let learningGoals = ["Gradient borders", "Minor CSS Animations", "Append Children"];
+let Sources = ["https://css-tricks.com/gradient-borders-in-css/", "https://animate.style/", "https://www.w3schools.com/jsref/met_node_appendchild.asp"];
+let Finished = [false, false, false];
 
 for (let i = 0; i < learningGoals.length; i++) {
     const learningGoalsArray = learningGoals[i];
     const sourcesArray = Sources[i];
     const finishedArray = Finished[i];
-    jsContainer.innerHTML += `<ul class="list-group list-group-flush w-30 flex-row">
-    <li class="list-group-item list-number ms-2 w-5 mb-1">${i + 1}</li>
-    <li class="list-group-item list-goal ms-2 w-10 mb-1">${learningGoalsArray}</li>
-    <li class="list-group-item list-source ms-2 w-10 mb-1">${sourcesArray}</li>
-    <li class="list-group-item border-bottom list-finished ms-2 w-5 mb-1 text-danger">${finishedArray}</li>
-    </ul>`
-    console.log(i);
+    numberContainer.innerHTML += ` <li class="list-group-item list-number ms-2 w-5 mb-1">${i + 1}</li>`
+    goalContainer.innerHTML += `<li class="list-group-item list-goal ms-2 w-10 mb-1">${learningGoalsArray}</li>`
+    sourceContainer.innerHTML += `<li class="list-group-item list-source ms-2 w-10 mb-1">${sourcesArray}</li>`
+    finishedContainer.innerHTML += `<li class="list-group-item border-bottom list-finished ms-2 w-5 mb-1 text-danger">${finishedArray}</li>`
 }
 
+// swmgImage.addEventListener('mouseleave', function(){
+//     swmgImage.style.visibility = "hidden";
+//     console.log("Element is invisible");
+// })

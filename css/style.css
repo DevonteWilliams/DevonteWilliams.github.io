@@ -1,4 +1,9 @@
-body{
-    transform: rotate(900000deg);
-    transition-duration: 5s;
+.swmg-img{
+    width: 80%;
+    height: 80%;
+    /* visibility: hidden; */
+}
+
+.flashAnimation{
+    
 }
