@@ -5,7 +5,6 @@ const sourceContainer = document.querySelector('.source-container');
 const finishedContainer = document.querySelector('.finished-container');
 const swmgImage = document.querySelector('.swmg-img');
 let currentWindow = window.location.href;
-
 const goals = [
     {
         learninGoal: "Gradient borders",
@@ -18,6 +17,8 @@ const goals = [
         finished: false
     },
 ];
+
+if(currentWindow.includes("index"))throw new Error("I just tried some new JS techs!");
 
 function addGoal(){
     goals.push({});
@@ -42,8 +43,3 @@ if(currentWindow.includes("sequencePlan")){
         finishedContainer.innerHTML += `<li class="list-group-item border-bottom list-finished ms-2 w-5 mb-1 text-danger">${finishedArray}</li>`
     }
 }
-    
-// swmgImage.addEventListener('mouseleave', function(){
-//     swmgImage.style.visibility = "hidden";
-//     console.log("Element is invisible");
-// })
