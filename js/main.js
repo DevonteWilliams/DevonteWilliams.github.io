@@ -18,8 +18,6 @@ const goals = [
     },
 ];
 
-if(currentWindow.includes("index"))throw new Error("I just tried some new JS techs!");
-
 function addGoal(){
     goals.push({});
 }
@@ -44,7 +42,13 @@ if(currentWindow.includes("sequencePlan")){
     }
 }
 
-if(currentWindow.includes("index.html"){
+if(currentWindow.includes("index")){
+    console.log(currentWindow);
     const revealButton = document.querySelector(".reveal-errors");
-    
+    revealButton.addEventListener("click", revealImage)
+}
+
+function revealImage(){
+    const hiddenImage = document.querySelector(".no-errors-image");
+    hiddenImage.classList.remove("invisible");
 }

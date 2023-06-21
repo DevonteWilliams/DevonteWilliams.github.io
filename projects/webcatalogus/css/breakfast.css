@@ -1,0 +1,45 @@
+
+
+
+
+
+.breakfast-banner {
+    background-image: url(../img/ontbijt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 375px;
+}
+
+.banner-color {
+    background-color: rgba(11, 11, 11, .5);
+    height: 375px;
+}
+
+.text-style {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.country1 {
+    height: 150px;
+    width: 200px;
+}
+
+.country2 {
+    height: 150px;
+    width: 200px;
+}
+
+.country3 {
+    height: 150px;
+    width: 200px;
+}
+
+.dutch-img {
+    height: 200px;
+    width: 400px;
+}
+
+
+
+

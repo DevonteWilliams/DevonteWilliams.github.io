@@ -1,0 +1,41 @@
+
+
+
+.about-background {
+    background-image: url(../img/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.main-background {
+    background-image: url(../img/mainbg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.main-body {
+    margin-top: 10px;
+}
+
+.about-title-h1 {
+    color: rgb(255, 187, 0);
+    padding-top: 35px;
+    border-bottom: 2px solid white;
+}
+
+.about-p {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.title-about {
+    border-bottom: 2px solid gray;
+    
+}

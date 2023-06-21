@@ -1,0 +1,47 @@
+/* Put yor own CSS code here when needed */
+.bi-instagram{
+    color: rgb(231, 12, 202);
+}  
+.bi-facebook{
+    color: blue;
+}
+ .bi-linkedin{
+    color: blue;
+ }
+ .o, .l, .a{
+     background-color: red;
+      color: white;
+       border-radius: 100%;
+padding: 90px;}
+.aboutContact{
+padding: 30px;
+border-radius: 50px;
+background-color: black;}
+a{
+text-decoration: none;
+color: white;}a:hover{
+color: yellow;}
+body{
+    background-color: rgb(240, 240, 240);   
+}
+
+body{
+    background-color: white;
+}
+.tomorrow{
+font-size: 100px;
+color: orangered;
+}
+.tomorrowFooter{
+color: orangered;
+font-size: 50px;
+}
+
+
+body{
+    background-image: linear-gradient(lightblue, white, lightblue);
+}
+
+.pointer{
+    cursor: pointer;
+}
