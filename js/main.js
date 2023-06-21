@@ -43,3 +43,8 @@ if(currentWindow.includes("sequencePlan")){
         finishedContainer.innerHTML += `<li class="list-group-item border-bottom list-finished ms-2 w-5 mb-1 text-danger">${finishedArray}</li>`
     }
 }
+
+if(currentWindow.includes("index.html"){
+    const revealButton = document.querySelector(".reveal-errors");
+    
+}
