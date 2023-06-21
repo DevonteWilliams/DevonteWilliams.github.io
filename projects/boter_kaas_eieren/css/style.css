@@ -1,0 +1,114 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.wrapper{
+    display: grid;
+    width: 900px;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(11, 50px);
+    gap: 20px;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "hd hd hd hd"
+    "ct1 ct2 ct3 sb"
+    "ct1 ct2 ct3 sb"
+    "ct4 ct5 ct6 sb"
+    "ct4 ct5 ct6 sb"
+    "ct7 ct8 ct9 sb"
+    "ct7 ct8 ct9 sb"
+    ". ft ft ."
+    ". ft ft .";
+}
+
+.box{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.grid{
+    gap: 0px;
+    border-radius: 0%;
+}
+
+.grid:hover{
+    z-index: 1;
+}
+
+.header{
+    grid-area: hd;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.sidebar{
+    grid-area: sb;
+    text-align: center;
+}
+
+.content1{
+    grid-area: ct1;
+    border-left: 0px;
+    border-top: 0px;
+
+}
+
+.content2{
+    grid-area: ct2;
+    border-top: 0px;
+}
+
+.content3{
+    grid-area: ct3;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.content4{
+    grid-area: ct4;
+    border-left: 0px;
+}
+
+.content5{
+    grid-area: ct5;
+}
+
+.content6{
+    grid-area: ct6;
+    border-right: 0px;
+}
+
+.content7{
+    grid-area: ct7;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.content8{
+    grid-area: ct8;
+    border-bottom: 0px;
+}
+
+.content9{
+    grid-area: ct9;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+.content{
+    grid-area: ct;
+}
+
+.footer{
+    grid-area: ft;
+    text-align: center;
+    font-size: 75px;
+}
+
+.back{
+    font-size:30px;
+}
