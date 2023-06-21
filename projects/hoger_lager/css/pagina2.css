@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .waivy {
+    position: relative;
+    font-size: 60px;
+    margin-bottom: 20%;
+    align-items: center;
+  }
+  .waivy span {
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    display: inline-block;
+    color: #90EE90;
+    text-transform: uppercase;
+    animation: waivy 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waivy {
+    0%,40%,100% {
+      transform: translateY(0px)
+    }
+    20% {
+      transform: translateY(30px)
+    }
+  }
+
+#Player{
+  float: left;
+  font-family: "Press Start 2P";
+  color: #90EE90;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+#Computer{
+  float: right;
+  font-family: "Press Start 2P";
+  color: #90EE90;
+  margin-top: 10%;
+}
+
+#Back{
+  float: left;
+  font-family: "Press Start 2P";
+  color: #90EE90;
+  margin-bottom: 30%;
+  margin-left: 0%;
+}
+
+a{
+  text-decoration: none;
+  color: #90EE90;
+}
+
+.Scores{
+  font-family: "Press Start 2P";
+  color: #90EE90;
+  margin-left: -300%;
+  margin-top: 250%;
+}
+
+h1{
+  font-family: "Press Start 2P";
+  color: #90EE90;
+}
+
+.gameStart{
+  font-family: "Press Start 2P";
+  color: #90EE90;
+  background-color: black;
+  font-size: 30px;
+  margin-left: -500%;
+}
+
+.gameStart:hover{
+  cursor: pointer;
+}

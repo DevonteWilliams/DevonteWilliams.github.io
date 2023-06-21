@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#headwrapper{
+  width: 1000px;
+  color: black;
+  height: 100px;
+  margin: auto;
+  font-size: 100%;
+}
+
+header{
+    background-color: black;
+    font-size: 80px;
+    color: #90EE90;
+    height: 40px;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 10%;
+    margin-right: 120px;
+    font-family: 'Press Start 2P';
+}
+button{
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 7%;
+  background-color: #000000;
+}
+
+#wrapper{
+   width: 1000px;
+    margin: -1% -1% -1% 36.5% ;
+    font-family: 'Press Start 2P';
+}
+body{ 
+    background-color:#000000 ;
+    animation: body 5s;
+    font-family: arial;
+    font-family: 'Press Start 2P';
+}
+
+#start{
+  font-size: 40px;
+  color: #90EE90;
+  margin-top: 30%;
+  width: 200px;
+  margin-left: 10%;
+  font-family: 'Press Start 2P';
+}
+
+a{
+  text-decoration: none;
+}
+
+#rules{
+  font-size: 40px;
+  color: #90EE90;
+  margin-top: 10%;
+  width: 200px;
+  margin-left: 10%;
+  font-family: 'Press Start 2P';
+
+}
+
+#options{
+  font-size: 40px;
+  color: #90EE90;
+  margin-top: 10%;
+  width: 200px;
+  margin-left: 10%;
+  font-family: 'Press Start 2P';
+}
+
+.exit{
+  font-size: 40px;
+  color: #90EE90;
+  margin-top: 10%;
+  width: 200px;
+  margin-left: 10%;
+  font-family: 'Press Start 2P';
+}
+
+button:hover{
+  cursor: pointer;
+}
+
