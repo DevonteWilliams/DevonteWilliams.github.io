@@ -8,7 +8,7 @@ let secondCheck;
 let innerHTMLText = `<div class="overlay-div short-transition overlay-transition z-index container-fluid col-9 bg-light mt-4">
     <div class="row">
         <div class="col col-3">
-            <p>Bent u een bot?</p>
+            <p>Bent u echt?</p>
         </div>
     </div>
     <div class="row text-center mb-2">
