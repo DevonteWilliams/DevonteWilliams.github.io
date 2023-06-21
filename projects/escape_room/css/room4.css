@@ -1,0 +1,11 @@
+body {
+    background-image: url(../img/MicrosoftTeams-image.png);
+    background-size: cover;
+}
+
+audio {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}

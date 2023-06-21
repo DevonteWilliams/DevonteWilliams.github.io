@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body {
+    background-color: rgb(38, 35, 35);
+    background-image: url(/img/1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    margin-top: 5%;
+    width: 60%;
+    height: 525px;
+    background-color: rgba(255, 255, 255, 0.634);
+    border-radius: 50px;
+}
+
+.text1 {
+    color: black;
+}
+
+p {
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px;
+}
+
+#back {
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    border: none;
+    font-size: 30px;
+    background: rgb(193, 84, 57);
+    border-radius: 10px;
+    width: 120px;
+    color: black;
+}
+
+#playText {
+    margin-top: 4%;
+    margin-left: 35%;
+    border: none;
+    font-size: 40px;
+    background: rgb(193, 84, 57);
+    border-radius: 10px;
+    width: 250px;
+    color: black;
+}
+
+#playText:hover {
+    cursor: pointer;
+    background-color: rgba(0, 110, 255, 0.536);
+}
+
+#back:hover {
+    background-color: rgba(0, 110, 255, 0.536);
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

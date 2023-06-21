@@ -43,7 +43,6 @@ if(currentWindow.includes("sequencePlan")){
 }
 
 if(currentWindow.includes("index")){
-    console.log(currentWindow);
     const revealButton = document.querySelector(".reveal-errors");
     revealButton.addEventListener("click", revealImage)
 }

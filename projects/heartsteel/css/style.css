@@ -1,0 +1,105 @@
+*{
+    color: white;
+    overflow-y: hidden  ;
+}
+
+body{
+    background-color: black;
+
+}
+
+.animationColorChange{
+    color: yellow;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: minmax(300px, auto);
+    grid-template-columns: repeat(1fr, auto);
+    grid-template-areas:    
+    "hd"
+    "content";
+    gap: 10px;
+}
+
+.header{
+    animation-name: header-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    grid-area: hd;
+    text-align: center;
+    font-size: 70px;
+    /* visibility: hidden; */
+}
+
+.content{
+    grid-area: content;
+    text-align: center;
+}
+
+.content p{
+    font-size: 50px;
+}
+
+.content p:hover{
+    animation-name: color-change;
+    animation-delay: 5ms;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+@keyframes color-change{
+    from{
+        color: white;
+    }
+
+    to{
+        color: yellow;
+    }
+}
+
+@keyframes header-animation{
+    from{
+        font-size: 1px;
+    }
+    
+    to{
+        font-size: 70px;
+    }
+}
+
+.character1, .character2, .character3{
+    border: 1px solid white;
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(200px, auto);
+    grid-auto-columns: 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    ". header ."
+    ". . ."
+    "char1 char2 char3";
+}
+
+.container > .character1{
+    grid-area: char1;
+    width: 200px;
+}
+
+.container > .character2{
+    grid-area: char2;
+    width: 200px;
+}
+
+.container > .character3{
+    grid-area: char3;
+    width: 200px;
+}
